@@ -1,0 +1,45 @@
+/* Font per tutto il sito */
+body, h1, h2, h3, h4, h5, h6, p, .code-section {
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+}
+
+/* Stile base per la navbar */
+.transparent-bg {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.scrolled {
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-message {
+  font-size: 1.1rem;
+  color: #00ff00;
+  display: flex;
+  align-items: center;
+}
+
+#dynamic-message {
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+  color: #00ff00;
+}
+
+#cursor {
+  display: inline-block;
+  background-color: #00ff00;
+  width: 10px;
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
